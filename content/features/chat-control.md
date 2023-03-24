@@ -28,7 +28,7 @@ When editing a command, you have to write a script that specifies which action y
 * `wait(seconds)` wait for the specified amount of time before continuing the script. Note that the script has to finish executing before the command can be called again.
 * `action(id, pressed)` performs the specified action. You can find a list of all possible actions' id [here](https://github.com/ori-community/wotw-rando-client/blob/main/projects/Core/enums/actions.h). This function simulates pressing a button; the pressed argument is used in order to specify if the action is being pressed or released by using respectively true or false. Note that an action won't release by itself: if you want to do a script which makes Ori jump you have to write `action("Jump", true)` to jump, followed by `wait(0.1)` in order to be sure the game will interpret your input and finally `action("Jump", false)` in order to release the Jump action. If you are not adding the releasing action, this will prevent you from jumping again since the game will think you are still holding your jump button.
 * `setVelocity(x, y)` sets Ori's velocity. Positive x values move Ori to the right while negative values move them to the left. Positive y values move Ori upwards and negative values move them downward.
-* `getValocity()` returns Ori current velocity.
+* `getVelocity()` returns Ori current velocity.
 * `random()` returns a random number between 0 and 1.
 * `random(bound)` returns a random number between 0 and the specified bound.
 * `random(min, max)` returns a random number between the specified min and max values.

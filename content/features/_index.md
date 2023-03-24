@@ -3,7 +3,7 @@ title: Features
 ---
 
 The main function of this randomizer is shuffling all the item locations.
-That means it’s completely possible to collect a spirit light container but get the double jump skill instead.
+That means it’s completely possible to collect a spirit light container but get the Double Jump skill instead.
 Likewise, Skill Trees don’t always give you a skill, so you might find a Gorlek Ore when activating the Bash Skill Tree.
 
 The item placement however is not completely random: there is an algorithm or logic to the chaos.

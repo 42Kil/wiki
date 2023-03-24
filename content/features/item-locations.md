@@ -7,7 +7,7 @@ tags:
 There are 389 item locations in the entire game. Depending on your [seed generation](/seedgen) settings, this number might change.
 * 148 Spirit Light Containers
 * 38 Gorlek Ore
-* 35 items from quests (from both quests’ rewards and items related to quest)
+* 35 items from quests (from both quest rewards and items related to quest)
 * 33 Keys (31 Keystones + 2 Eyestones)
 * 32 items from shops (including Lupo’s maps)
 * 24 Life Fragments
